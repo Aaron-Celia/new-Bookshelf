@@ -58,7 +58,7 @@ body {
     margin-right: 10px;
 }
 
-.add {
+#add {
     height: 40px;
     width: 40px;
     border-radius: 100%;
@@ -68,7 +68,7 @@ body {
     margin-top: 10px;
 }
 
-.add:hover {
+#add:hover {
     transform: scale(1.5);
     background-color: green;
 }
