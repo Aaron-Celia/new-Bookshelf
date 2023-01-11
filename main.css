@@ -1,0 +1,81 @@
+body {
+    margin: 0px;
+    position: relative;
+    background-color: #A0C3D2;
+}
+
+
+
+#bookshelf {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 150px
+}
+
+#bookshelf > div {
+    border: solid burlywood 2px;
+    width: 300px;
+    margin: 5px;
+    background-color: burlywood;
+    border-top-right-radius: 10%;
+    border-bottom-right-radius: 10%;
+}
+
+.nav {
+    background-color: black;
+    height: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    top: 0px;
+    width: 100vw;
+
+}
+
+#inputs {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;;
+    /* margin: 50px; */
+    background-color: grey;
+    position: fixed;
+    top: 0px;
+    width: 100vw;
+}
+
+#inputs > input {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#inputs > label {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.add {
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    /* background-color: green; */
+    border: none;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.add:hover {
+    transform: scale(1.5);
+    background-color: green;
+}
+
+.nav > a {
+    list-style: none;
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+}
